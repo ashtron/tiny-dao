@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tinyDAO</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar nes-container">
+            <div class="navbar-item"><a href="dao-list.html">my DAOs</a></div>
+            <div class="navbar-item"><a href="index.html">launch a new DAO</a></div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="main nes-container is-rounded">
+            <h2>tinyDAO</h2>
+    
+            <form>
+                <div class="nes-field">
+                    <label for="name">DAO name</label>
+                    <input type="text" id="name" class="nes-input" placeholder="superDAO">
+                </div>
+    
+                <div class="nes-field">
+                    <label for="description">description</label>
+                    <textarea id="description" class="nes-textarea" placeholder="saving the world one DAO at a time"></textarea>
+                </div>
+    
+                <div class="nes-field">
+                    <label for="voting-period">voting period (in seconds)</label>
+                    <input type="text" id="voting-period" class="nes-input" placeholder="259200 (3 days)">
+                </div>
+    
+                <div class="nes-field">
+                    <label for="quorum">quorum (as %)</label>
+                    <input type="text" id="quorum" class="nes-input" placeholder="51">
+                </div>
+                
+                <div class="buttons">
+                    <button class="nes-btn">launch your DAO!</button>
+                </div>
+            </form>
+        </div>    
+    </div>
+</body>
+
+</html>

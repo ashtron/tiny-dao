@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tinyDAO</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main nes-container is-rounded">
+        <h2>superDAO</h2>
+
+        <form>
+            <div class="nes-field">
+                <label for="new-member">propose new member</label>
+                <input type="text" id="new-member" class="nes-input" placeholder="address">
+            </div>
+
+            <div class="nes-field">
+                <label for="tx-address">propose transaction</label>
+                <input type="text" id="tx-address" class="nes-input" placeholder="address">
+                <label for="tx-amount"></label>
+                <input type="text" id="tx-amount" class="nes-input" placeholder="amount (in ether)">
+            </div>
+
+            <div class="buttons">
+                <button class="nes-btn">submit proposition!</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

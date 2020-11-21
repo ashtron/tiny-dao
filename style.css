@@ -1,0 +1,80 @@
+* {
+    cursor: default !important;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Press Start 2P";
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main.nes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 65%;
+    margin: 4em 0;
+}
+
+.nes-field {
+    margin-bottom: 1.2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1.5rem;
+}
+
+h2 {
+    margin-bottom: 0.7rem;
+}
+
+#tx-amount {
+    margin-top: 1rem;
+}
+
+.dao-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dao-container {
+    margin: 0.7rem !important;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    padding: 0.5rem 2rem;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.navbar-item {
+    margin: 0 1.3rem;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
