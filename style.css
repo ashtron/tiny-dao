@@ -42,7 +42,7 @@ h2 {
     margin-bottom: 0.7rem;
 }
 
-#tx-amount {
+#tx-amount, #new-member-address {
     margin-top: 1rem;
 }
 

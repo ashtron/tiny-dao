@@ -11,26 +11,37 @@
 </head>
 
 <body>
-    <div class="main nes-container is-rounded">
-        <h2>superDAO</h2>
+    <div class="container">
+        <nav class="navbar nes-container">
+            <div class="navbar-item"><a href="dao-list.html">my DAOs</a></div>
+            <div class="navbar-item"><a href="index.html">launch a new DAO</a></div>
+        </nav>
+    </div>
 
-        <form>
-            <div class="nes-field">
-                <label for="new-member">propose new member</label>
-                <input type="text" id="new-member" class="nes-input" placeholder="address">
-            </div>
-
-            <div class="nes-field">
-                <label for="tx-address">propose transaction</label>
-                <input type="text" id="tx-address" class="nes-input" placeholder="address">
-                <label for="tx-amount"></label>
-                <input type="text" id="tx-amount" class="nes-input" placeholder="amount (in ether)">
-            </div>
-
-            <div class="buttons">
-                <button class="nes-btn">submit proposition!</button>
-            </div>
-        </form>
+    <div class="container">
+        <div class="main nes-container is-rounded">
+            <h2>superDAO</h2>
+    
+            <form>
+                <div class="nes-field">
+                    <label for="new-member-name">propose new member</label>
+                    <input type="text" id="new-member-name" class="nes-input" placeholder="name">
+                    <label for="new-member-address"></label>
+                    <input type="text" id="new-member-address" class="nes-input" placeholder="address">
+                </div>
+    
+                <div class="nes-field">
+                    <label for="tx-address">propose transaction</label>
+                    <input type="text" id="tx-address" class="nes-input" placeholder="address">
+                    <label for="tx-amount"></label>
+                    <input type="text" id="tx-amount" class="nes-input" placeholder="amount (in ether)">
+                </div>
+    
+                <div class="buttons">
+                    <button class="nes-btn">Submit proposition!</button>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
